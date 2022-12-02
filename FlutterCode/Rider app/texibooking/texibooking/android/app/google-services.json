@@ -1,0 +1,137 @@
+{
+  "project_info": {
+    "project_number": "522987428134",
+    "project_id": "taxi-booking-810bf",
+    "storage_bucket": "taxi-booking-810bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522987428134:android:4f540ba734047bebe809e7",
+        "android_client_info": {
+          "package_name": "com.mighty.taxi_driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522987428134-11u97j5lvcgpkqkl5gcpiq2j0esp9tct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mighty.taxi_driver",
+            "certificate_hash": "c31034732b82de893339d3eb0fb5802a043d3ef9"
+          }
+        },
+        {
+          "client_id": "522987428134-o1qf99m4cd1qh142bj16m48k8k7hn5lo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mighty.taxi_driver",
+            "certificate_hash": "5601b206f2d23a37d33a384c31ca797ad81de2c6"
+          }
+        },
+        {
+          "client_id": "522987428134-q52ckp6ftrvb3r5qrhb2ph9ku76kbsus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mighty.taxi_driver",
+            "certificate_hash": "dc6c6a30663b74645ac150b11135c75616616af1"
+          }
+        },
+        {
+          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522987428134:android:08fd5fbd52aa8928e809e7",
+        "android_client_info": {
+          "package_name": "com.mighty.taxirider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522987428134:android:3b2ee3e15ad8fdc3e809e7",
+        "android_client_info": {
+          "package_name": "com.mighty.texi_booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522987428134-9a9bllq9pksr3jr74gqco3ffav92s2j2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mighty.texi_booking",
+            "certificate_hash": "dc6c6a30663b74645ac150b11135c75616616af1"
+          }
+        },
+        {
+          "client_id": "522987428134-jgoriap34ho9uj0uplto1a0io5qdr2hd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mighty.texi_booking",
+            "certificate_hash": "c31034732b82de893339d3eb0fb5802a043d3ef9"
+          }
+        },
+        {
+          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

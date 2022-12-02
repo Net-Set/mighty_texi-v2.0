@@ -1,0 +1,23 @@
+@mixin before-border-left () {
+    position: relative;
+    &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+        width: 4px;
+        top: 13%;
+        height: 75%;
+        // transition: all 200ms ease-in;
+    }
+    &:hover{
+        a{
+            color: $primary !important;
+        }
+        &:before{
+            transition: all 200ms ease-in-out;
+            background-color: $primary;
+        }
+    }
+}

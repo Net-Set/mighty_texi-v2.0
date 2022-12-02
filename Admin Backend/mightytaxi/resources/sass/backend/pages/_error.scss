@@ -1,0 +1,66 @@
+.mm-error {
+	width: 100%;
+	overflow: hidden;
+	display: inline-block;
+	h1.text-in-box {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		font-size: 8em;
+		font-weight: 700;
+	}
+}
+.mm-error-img {
+	display: block;
+	position: static;
+	display: inline-block;
+	margin-bottom: 20px;
+	width: 60%;
+}
+.mm-error-img-dark {
+	display: none;
+}
+.dark {
+	.mm-error-img {
+		display: none;
+	}
+	.mm-error-img-dark {
+		display: block;
+	}
+}
+.height-self-center {
+    height: 100vh;
+    @if $enable-rounded == true {
+		@include radius-mixin($border-radius);
+	}
+}
+.mm-maintenance {
+	img {
+		width: 50%;
+	}
+}
+
+
+@media (max-width: 767px){
+	.mm-error {
+	h1.text-in-box {
+		font-size: 5em;
+	}
+}
+
+}
+
+@media (max-width: 479px){
+	.mm-error {
+	h1.text-in-box {
+		font-size: 4em;
+	}
+	h2{
+			font-size: 1.5em;
+		} 
+	
+}
+
+
+}

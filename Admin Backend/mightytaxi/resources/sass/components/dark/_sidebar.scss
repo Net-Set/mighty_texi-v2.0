@@ -1,0 +1,56 @@
+// sidebar
+.mm-sidebar{
+    background: $sidebar-bg-dark;
+}
+.mm-sidebar-menu {
+   .side-menu {
+       li {
+           a {
+               color: $dark-body-text;
+               span{
+                   color: $dark-body-text;
+               }
+           }
+           &:hover{
+               >a{
+                   color: $primary;
+                   span{
+                       color: $primary;
+                   }
+               }
+           }
+       }
+       
+   }
+}
+.sidebar-default {
+   .mm-sidebar-menu {
+       .side-menu {
+           li {
+               ul{
+                border-color: lighten($dark-border-color, 10%);       
+               }
+           }
+           >li.active {
+            border-color: lighten($dark-border-color, 10%);
+               >a {
+                   color: $primary;
+                   span{
+                       color: $primary;
+                   }
+               }
+               .mm-submenu {
+                   li.active {
+                    border-color: $dark-border-color;
+                       >a {
+                           color: $primary;
+                           span{
+                               color: $primary;
+                           }
+                       }
+                   }
+               }                    
+           }
+       }
+   }
+}

@@ -1,0 +1,9 @@
+.has-error, .has-danger {
+    input {
+        border-color: $danger !important;
+        box-shadow: 0 0px 2px 0px rgba($danger,.4);
+    }
+    label {
+        color: $danger !important;
+    }
+}

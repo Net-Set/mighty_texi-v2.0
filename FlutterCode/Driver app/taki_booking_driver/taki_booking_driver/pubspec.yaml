@@ -1,0 +1,120 @@
+name: taxi_driver
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+
+  # TOAST
+  fluttertoast: ^8.0.9
+
+  # IMAGE
+  cached_network_image: ^3.2.1
+
+  # BASE
+  intl: ^0.17.0
+  google_fonts: ^3.0.1
+  html: ^0.15.0
+  shared_preferences: ^2.0.15
+  flutter_widget_from_html: ^0.9.0
+
+
+  # UI
+  sliding_up_panel: ^2.0.0+1
+  dotted_line: ^3.1.0
+  lottie: ^1.4.1
+  flutter_rating_bar: ^4.0.1
+  flutter_staggered_animations: ^1.0.0
+  bottom_picker: ^1.9.1
+  country_code_picker: ^2.0.2
+  flutter_native_contact_picker: ^0.0.3
+  multi_select_flutter: ^4.1.2
+  multiselect: ^0.0.7
+  timeline_tile: ^2.0.0
+  flutter_vector_icons: ^1.0.0
+
+  #OTP TEXTFIELD
+  otp_text_field: ^1.1.3
+
+  # MAP
+  geolocator: ^9.0.1
+  geocoding: ^2.0.4
+  google_maps_flutter: ^2.1.10
+  flutter_polyline_points: ^1.0.0
+  location: ^4.4.0
+
+  # IMAGES
+  image_picker: ^0.8.5+3
+  file_picker: ^5.0.1
+
+  # CONNECTIVITY
+  package_info_plus: ^1.4.3+1
+
+  # CONNECTIVITY
+  http: ^0.13.5
+  connectivity_plus: ^2.3.6+1
+  url_launcher: ^6.1.5
+
+  #FIREBASE
+  firebase_crashlytics: ^2.8.9
+  firebase_core: ^1.21.1
+  firebase_auth: ^3.7.0
+  firebase_storage: ^10.3.7
+  firebase_database: ^9.1.3
+  paginate_firestore: ^1.0.3+1
+  cloud_firestore: ^3.4.6
+
+  # STATE MANAGEMENT
+  mobx: ^2.0.7+5
+  flutter_mobx: ^2.0.6+1
+
+  # Payment gateway
+  razorpay_flutter: ^1.3.4
+  flutter_stripe: ^3.0.0
+  flutter_paystack: ^1.0.6
+  flutter_braintree: ^2.3.1
+  flutterwave_standard: ^1.0.6
+  flutter_paytabs_bridge: ^2.3.0
+  mercado_pago_mobile_checkout: ^0.2.0-dev.3
+  my_fatoorah: ^3.1.0
+  paytm: ^3.0.1
+
+
+  # PUSH NOTIFICATION
+  onesignal_flutter: ^3.4.1
+
+
+  # MQTT
+  mqtt_client: ^9.7.2
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.2.0
+  mobx_codegen: ^2.0.7
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+dependency_overrides:
+  firebase_core_platform_interface: 4.5.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - images/
+      - images/icons/
+      - images/flag/

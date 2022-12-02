@@ -1,0 +1,36 @@
+{
+    "name": "lavary/laravel-menu",
+    "description": "A quick way to create menus in Laravel 5",
+    "keywords": [
+        "laravel"
+    ],
+    "homepage": "https://github.com/lavary/laravel-menu",
+    "authors": [
+        {
+            "name": "Lavary",
+            "email": "mrl.8081@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=5.0",
+        "illuminate/view": ">=5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lavary\\Menu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lavary\\Menu\\ServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "Lavary\\Menu\\Facade"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
